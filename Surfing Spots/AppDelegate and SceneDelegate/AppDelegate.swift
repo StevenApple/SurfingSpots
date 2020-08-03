@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Surfing Spots
-//
-//  Created by Steven M on 31/07/2020.
-//  Copyright © 2020 Steven. All rights reserved.
-//
 
 import UIKit
 
