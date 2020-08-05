@@ -1,9 +1,9 @@
 
 class CitydWithTemperature: Comparable{
         
-    let city: String
-    let temperature: Int
-    let cloudy: Bool
+    var city: String
+    var temperature: Int
+    var cloudy: Bool
     
     init(city:String,temperature:Int,cloudy:Bool) {
         self.city = city

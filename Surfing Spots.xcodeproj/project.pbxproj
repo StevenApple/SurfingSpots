@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0060CA724D825D80090A90D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0060CA624D825D80090A90D /* TableViewController.swift */; };
+		B0060CAB24D82C430090A90D /* AppUrlConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0060CAA24D82C430090A90D /* AppUrlConfig.swift */; };
+		B0060CAE24D831D20090A90D /* NetworkDownloadProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0060CAD24D831D20090A90D /* NetworkDownloadProtocols.swift */; };
+		B0060CB224D83D6C0090A90D /* CityWithTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0060CB124D83D6C0090A90D /* CityWithTemperature.swift */; };
+		B00CAD9D24D5DD7C00E0F134 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CAD9C24D5DD7C00E0F134 /* UINavigationController.swift */; };
 		B046DE1E24D456E600F1E4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046DE1D24D456E600F1E4A4 /* AppDelegate.swift */; };
 		B046DE2024D456E600F1E4A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046DE1F24D456E600F1E4A4 /* SceneDelegate.swift */; };
-		B046DE2224D456E600F1E4A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046DE2124D456E600F1E4A4 /* ViewController.swift */; };
 		B046DE2524D456E600F1E4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B046DE2324D456E600F1E4A4 /* Main.storyboard */; };
 		B046DE2724D456E700F1E4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B046DE2624D456E700F1E4A4 /* Assets.xcassets */; };
 		B046DE2A24D456E700F1E4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B046DE2824D456E700F1E4A4 /* LaunchScreen.storyboard */; };
 		B046DE3524D456E700F1E4A4 /* Surfing_SpotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046DE3424D456E700F1E4A4 /* Surfing_SpotsTests.swift */; };
+		B090014024D987A300872557 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090013F24D987A300872557 /* UIImage.swift */; };
+		B090014224D98C0000872557 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090014124D98C0000872557 /* UIView.swift */; };
+		B090014624D9A15100872557 /* ExtensionToTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090014524D9A15100872557 /* ExtensionToTableViewController.swift */; };
+		B0ABDB2324D8C6D600D881D0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ABDB2224D8C6D600D881D0 /* TableViewCell.swift */; };
+		B0ABDB2624D8C70500D881D0 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0ABDB2524D8C70500D881D0 /* Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0060CA624D825D80090A90D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B0060CAA24D82C430090A90D /* AppUrlConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUrlConfig.swift; sourceTree = "<group>"; };
+		B0060CAD24D831D20090A90D /* NetworkDownloadProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDownloadProtocols.swift; sourceTree = "<group>"; };
+		B0060CB124D83D6C0090A90D /* CityWithTemperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWithTemperature.swift; sourceTree = "<group>"; };
+		B00CAD9C24D5DD7C00E0F134 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		B046DE1A24D456E600F1E4A4 /* Surfing Spots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Surfing Spots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B046DE1D24D456E600F1E4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B046DE1F24D456E600F1E4A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B046DE2124D456E600F1E4A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B046DE2424D456E600F1E4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B046DE2624D456E700F1E4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B046DE2924D456E700F1E4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +51,11 @@
 		B046DE3024D456E700F1E4A4 /* Surfing SpotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Surfing SpotsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B046DE3424D456E700F1E4A4 /* Surfing_SpotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surfing_SpotsTests.swift; sourceTree = "<group>"; };
 		B046DE3624D456E700F1E4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B090013F24D987A300872557 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		B090014124D98C0000872557 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B090014524D9A15100872557 /* ExtensionToTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionToTableViewController.swift; sourceTree = "<group>"; };
+		B0ABDB2224D8C6D600D881D0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B0ABDB2524D8C70500D881D0 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0060CA124D8201E0090A90D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B0060CAD24D831D20090A90D /* NetworkDownloadProtocols.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B0060CAC24D82C580090A90D /* App URL Config */ = {
+			isa = PBXGroup;
+			children = (
+				B0060CAA24D82C430090A90D /* AppUrlConfig.swift */,
+			);
+			path = "App URL Config";
+			sourceTree = "<group>";
+		};
+		B00CAD9A24D5DD4600E0F134 /* AppDelegate and SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B046DE1D24D456E600F1E4A4 /* AppDelegate.swift */,
+				B046DE1F24D456E600F1E4A4 /* SceneDelegate.swift */,
+			);
+			path = "AppDelegate and SceneDelegate";
+			sourceTree = "<group>";
+		};
+		B00CAD9B24D5DD6B00E0F134 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0060CA624D825D80090A90D /* TableViewController.swift */,
+				B0ABDB2424D8C6DE00D881D0 /* TableViewCell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B00CAD9E24D5DF4000E0F134 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B00CAD9C24D5DD7C00E0F134 /* UINavigationController.swift */,
+				B090013F24D987A300872557 /* UIImage.swift */,
+				B090014124D98C0000872557 /* UIView.swift */,
+				B090014524D9A15100872557 /* ExtensionToTableViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B046DE1124D456E600F1E4A4 = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +142,12 @@
 		B046DE1C24D456E600F1E4A4 /* Surfing Spots */ = {
 			isa = PBXGroup;
 			children = (
-				B046DE1D24D456E600F1E4A4 /* AppDelegate.swift */,
-				B046DE1F24D456E600F1E4A4 /* SceneDelegate.swift */,
-				B046DE2124D456E600F1E4A4 /* ViewController.swift */,
+				B09B3B2124D863430025ECE2 /* Class CitydWithTemperature */,
+				B0060CAC24D82C580090A90D /* App URL Config */,
+				B0060CA124D8201E0090A90D /* Network */,
+				B00CAD9E24D5DF4000E0F134 /* Extensions */,
+				B00CAD9A24D5DD4600E0F134 /* AppDelegate and SceneDelegate */,
+				B00CAD9B24D5DD6B00E0F134 /* Controller */,
 				B046DE2324D456E600F1E4A4 /* Main.storyboard */,
 				B046DE2624D456E700F1E4A4 /* Assets.xcassets */,
 				B046DE2824D456E700F1E4A4 /* LaunchScreen.storyboard */,
@@ -97,6 +163,23 @@
 				B046DE3624D456E700F1E4A4 /* Info.plist */,
 			);
 			path = "Surfing SpotsTests";
+			sourceTree = "<group>";
+		};
+		B09B3B2124D863430025ECE2 /* Class CitydWithTemperature */ = {
+			isa = PBXGroup;
+			children = (
+				B0060CB124D83D6C0090A90D /* CityWithTemperature.swift */,
+			);
+			path = "Class CitydWithTemperature";
+			sourceTree = "<group>";
+		};
+		B0ABDB2424D8C6DE00D881D0 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B0ABDB2224D8C6D600D881D0 /* TableViewCell.swift */,
+				B0ABDB2524D8C70500D881D0 /* Cell.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B046DE2A24D456E700F1E4A4 /* LaunchScreen.storyboard in Resources */,
+				B0ABDB2624D8C70500D881D0 /* Cell.xib in Resources */,
 				B046DE2724D456E700F1E4A4 /* Assets.xcassets in Resources */,
 				B046DE2524D456E600F1E4A4 /* Main.storyboard in Resources */,
 			);
@@ -200,8 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B046DE2224D456E600F1E4A4 /* ViewController.swift in Sources */,
+				B090014224D98C0000872557 /* UIView.swift in Sources */,
+				B0060CA724D825D80090A90D /* TableViewController.swift in Sources */,
+				B0ABDB2324D8C6D600D881D0 /* TableViewCell.swift in Sources */,
+				B00CAD9D24D5DD7C00E0F134 /* UINavigationController.swift in Sources */,
+				B0060CAE24D831D20090A90D /* NetworkDownloadProtocols.swift in Sources */,
 				B046DE1E24D456E600F1E4A4 /* AppDelegate.swift in Sources */,
+				B090014624D9A15100872557 /* ExtensionToTableViewController.swift in Sources */,
+				B0060CAB24D82C430090A90D /* AppUrlConfig.swift in Sources */,
+				B090014024D987A300872557 /* UIImage.swift in Sources */,
+				B0060CB224D83D6C0090A90D /* CityWithTemperature.swift in Sources */,
 				B046DE2024D456E600F1E4A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
