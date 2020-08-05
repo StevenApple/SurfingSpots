@@ -1,15 +1,8 @@
-//
-//  Surfing_SpotsTests.swift
-//  Surfing SpotsTests
-//
-//  Created by Steven M on 31/07/2020.
-//  Copyright © 2020 Steven. All rights reserved.
-//
 
 import XCTest
 @testable import Surfing_Spots
 
-class Surfing_SpotsTests: XCTestCase {
+class Surfing_SpotsTests: XCTestCase,NetworkDownloadProtocols {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -18,12 +11,29 @@ class Surfing_SpotsTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testdownloadTheListOfCity() {
+       let expect = expectation(description:"Download the list of city from server")
+       
+       let session: URLSession = URLSession(configuration: .default)
+       let url = URL(string:  UrlConfig.urlRunMocky)
+       session.dataTask(with: url!) { data, response, error in
+        XCTAssertNil(error)
+          expect.fulfill()
+       }.resume()
+       waitForExpectations(timeout:10.0) { (error) in
+          print(error?.localizedDescription ?? "error")
+       }
+    }
+    
+
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+      
     }
 
+   
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
