@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="216" id="oWU-Mk-xC3" customClass="TableViewCell" customModule="Surfing_Spots" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="477" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oWU-Mk-xC3" id="FS6-NY-C0N">
+                <rect key="frame" x="0.0" y="0.0" width="477" height="216"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8f0-7l-ov5">
+                        <rect key="frame" x="20" y="13" width="437" height="190"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sfr-Bi-4fA">
+                                <rect key="frame" x="0.0" y="0.0" width="437" height="190"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMh-1C-Hfn">
+                                <rect key="frame" x="8" y="98" width="416" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv1-5U-T56">
+                                <rect key="frame" x="8" y="135" width="416" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="N7u-0j-cEX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gv1-5U-T56" secondAttribute="bottom" constant="16" id="2G2-cT-2tS"/>
+                            <constraint firstItem="Sfr-Bi-4fA" firstAttribute="centerY" secondItem="8f0-7l-ov5" secondAttribute="centerY" id="6kV-Dd-Cw9"/>
+                            <constraint firstItem="CMh-1C-Hfn" firstAttribute="top" secondItem="8f0-7l-ov5" secondAttribute="top" constant="98" id="6pH-0B-hIc"/>
+                            <constraint firstItem="Sfr-Bi-4fA" firstAttribute="centerX" secondItem="8f0-7l-ov5" secondAttribute="centerX" id="E1T-VO-ypc"/>
+                            <constraint firstItem="CMh-1C-Hfn" firstAttribute="leading" secondItem="gv1-5U-T56" secondAttribute="leading" id="IHm-tm-yF5"/>
+                            <constraint firstItem="Sfr-Bi-4fA" firstAttribute="leading" secondItem="8f0-7l-ov5" secondAttribute="leading" id="Icc-1k-ef6"/>
+                            <constraint firstAttribute="bottom" secondItem="CMh-1C-Hfn" secondAttribute="bottom" constant="53" id="QVg-QK-Uzf"/>
+                            <constraint firstAttribute="trailing" secondItem="CMh-1C-Hfn" secondAttribute="trailing" constant="13" id="Z1B-vr-kYM"/>
+                            <constraint firstItem="CMh-1C-Hfn" firstAttribute="trailing" secondItem="gv1-5U-T56" secondAttribute="trailing" id="cDI-hL-XbG"/>
+                            <constraint firstItem="CMh-1C-Hfn" firstAttribute="leading" secondItem="8f0-7l-ov5" secondAttribute="leadingMargin" id="hbg-eQ-e3x"/>
+                            <constraint firstItem="Sfr-Bi-4fA" firstAttribute="height" secondItem="8f0-7l-ov5" secondAttribute="height" id="pkD-Pb-3Hh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8f0-7l-ov5" secondAttribute="trailing" constant="20" id="5RI-02-OqC"/>
+                    <constraint firstItem="8f0-7l-ov5" firstAttribute="height" secondItem="FS6-NY-C0N" secondAttribute="height" multiplier="0.87963" id="T2L-C4-Lyj"/>
+                    <constraint firstItem="8f0-7l-ov5" firstAttribute="top" secondItem="FS6-NY-C0N" secondAttribute="top" constant="13" id="Yzx-Nm-d8P"/>
+                    <constraint firstAttribute="bottom" secondItem="8f0-7l-ov5" secondAttribute="bottom" constant="13" id="h9a-Qu-nOj"/>
+                    <constraint firstItem="8f0-7l-ov5" firstAttribute="leading" secondItem="FS6-NY-C0N" secondAttribute="leading" constant="20" id="isg-jc-UUl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cityLabel" destination="CMh-1C-Hfn" id="CdD-Mb-TQW"/>
+                <outlet property="cloudyView" destination="8f0-7l-ov5" id="lhP-Bg-w4k"/>
+                <outlet property="img" destination="Sfr-Bi-4fA" id="pLm-rZ-qwZ"/>
+                <outlet property="temperatureLabel" destination="gv1-5U-T56" id="oeS-mL-9wA"/>
+            </connections>
+            <point key="canvasLocation" x="109.42028985507247" y="-194.86607142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
